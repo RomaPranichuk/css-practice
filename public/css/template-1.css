@@ -152,6 +152,8 @@
     border: 2px solid blue;
 
     border-radius: 15px;
+
+    border-block-start: thin groove blue;
 }
 
 .card:hover {
@@ -181,14 +183,9 @@ h1 {
     background: gray;
     /* max-width: 250px; */
     width: 200px;
-    hyphens: manual;
     word-spacing: 4px;
     overflow: auto;
     resize: horizontal;
-}
-
-.overflow {
-    overflow-wrap: anywhere;
 }
 
 .hero_title {
