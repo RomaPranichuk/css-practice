@@ -1,0 +1,17 @@
+{{#with data}}
+    <div class='article_cards'>
+        <img src='{{photo}}' alt='{{name}}' class='article_image' />
+        <h2 class='article_name'>{{name}}</h2>
+        <p class='article_desc'>{{description}}</p>
+
+        {{#if isNew includeZero=true}}
+            <div class='badge'>
+                <span class='article_badge'>New</span>
+            </div>
+        {{/if}}
+
+        <div class='buttons'>
+            <a href='https://www.youtube.com/' class='article_buttons'>Read All</a>
+        </div>
+    </div>
+{{/with}}
